@@ -33,11 +33,11 @@
  * in the design, construction, operation or maintenance of any military facility.
  */
 
+import * as ByteBuffer from '@ecency/bytebuffer'
 import * as assert from 'assert'
-import { createHash } from 'crypto'
 import * as bigInteger from 'bigi'
 import * as bs58 from 'bs58'
-import * as ByteBuffer from '@ecency/bytebuffer'
+import { createHash } from 'crypto'
 import * as ecurve from 'ecurve'
 import * as Ripemd160 from 'ripemd160'
 import * as secp256k1 from 'secp256k1'

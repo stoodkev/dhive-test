@@ -651,7 +651,6 @@ const EncryptedMemoSerializer = ObjectSerializer([
   ['encrypted', BinarySerializer()]
 ])
 
-
 export const Types = {
   Array: ArraySerializer,
   Asset: AssetSerializer,

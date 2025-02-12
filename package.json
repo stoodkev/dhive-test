@@ -35,7 +35,6 @@
     "@ecency/bytebuffer": "^6.0.0",
     "bigi": "^1.4.2",
     "bs58": "^4.0.1",
-    "core-js": "^3.6.4",
     "cross-fetch": "^3.0.4",
     "ecurve": "^1.0.6",
     "https": "^1.0.0",

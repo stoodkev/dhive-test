@@ -32,14 +32,6 @@
  * You acknowledge that this software is not designed, licensed or intended for use
  * in the design, construction, operation or maintenance of any military facility.
  */
-
-import 'core-js/features/array/from'
-import 'core-js/features/map'
-import 'core-js/features/number'
-import 'core-js/features/promise'
-import 'core-js/features/symbol'
-import 'core-js/features/symbol/async-iterator'
-import 'regenerator-runtime/runtime'
-import 'whatwg-fetch'
+// hi
 
 export * from './index'

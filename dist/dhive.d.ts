@@ -2910,11 +2910,11 @@ declare module 'dhive/client' {
 	     * Address prefix for current network.
 	     */
 	    readonly addressPrefix: string;
+	    currentAddress: string;
 	    private timeout;
 	    private backoff;
 	    private failoverThreshold;
 	    private consoleOnFailover;
-	    currentAddress: string;
 	    /**
 	     * @param address The address to the Hive RPC server,
 	     * e.g. `https://api.hive.blog`. or [`https://api.hive.blog`, `https://another.api.com`]
@@ -3064,14 +3064,6 @@ declare module 'dhive/index-browser' {
 	 * You acknowledge that this software is not designed, licensed or intended for use
 	 * in the design, construction, operation or maintenance of any military facility.
 	 */
-	import 'core-js/features/array/from';
-	import 'core-js/features/map';
-	import 'core-js/features/number';
-	import 'core-js/features/promise';
-	import 'core-js/features/symbol';
-	import 'core-js/features/symbol/async-iterator';
-	import 'regenerator-runtime/runtime';
-	import 'whatwg-fetch';
 	export * from 'dhive';
 
 }
